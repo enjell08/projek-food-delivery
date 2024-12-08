@@ -1,0 +1,181 @@
+CRITICAL - 2024-11-11 01:03:51 --> syntax error, unexpected '?>', expecting ')'
+#0 C:\Users\angel\Music\tokomakanan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\Users\angel\Music\tokomakanan\system\Common.php(1089): CodeIgniter\View\View->render('profile', Array, true)
+#2 C:\Users\angel\Music\tokomakanan\app\Controllers\Home.php(15): view('profile')
+#3 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#4 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#8 {main}
+CRITICAL - 2024-11-11 01:04:32 --> syntax error, unexpected 'img' (T_STRING), expecting ')'
+#0 C:\Users\angel\Music\tokomakanan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\Users\angel\Music\tokomakanan\system\Common.php(1089): CodeIgniter\View\View->render('profile', Array, true)
+#2 C:\Users\angel\Music\tokomakanan\app\Controllers\Home.php(15): view('profile')
+#3 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#4 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#8 {main}
+CRITICAL - 2024-11-11 01:04:57 --> syntax error, unexpected 'img' (T_STRING), expecting ')'
+#0 C:\Users\angel\Music\tokomakanan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\Users\angel\Music\tokomakanan\system\Common.php(1089): CodeIgniter\View\View->render('profile', Array, true)
+#2 C:\Users\angel\Music\tokomakanan\app\Controllers\Home.php(15): view('profile')
+#3 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#4 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#8 {main}
+CRITICAL - 2024-11-11 01:05:32 --> syntax error, unexpected 'jpg' (T_STRING), expecting ')'
+#0 C:\Users\angel\Music\tokomakanan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\Users\angel\Music\tokomakanan\system\Common.php(1089): CodeIgniter\View\View->render('profile', Array, true)
+#2 C:\Users\angel\Music\tokomakanan\app\Controllers\Home.php(15): view('profile')
+#3 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#4 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#8 {main}
+CRITICAL - 2024-11-11 01:05:33 --> syntax error, unexpected 'jpg' (T_STRING), expecting ')'
+#0 C:\Users\angel\Music\tokomakanan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\Users\angel\Music\tokomakanan\system\Common.php(1089): CodeIgniter\View\View->render('profile', Array, true)
+#2 C:\Users\angel\Music\tokomakanan\app\Controllers\Home.php(15): view('profile')
+#3 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#4 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#8 {main}
+ERROR - 2024-11-11 08:21:18 --> Table 'fast_food.tablemenu' doesn't exist
+CRITICAL - 2024-11-11 08:22:28 --> Invalid file: emakanan.php
+#0 C:\Users\angel\Music\tokomakanan\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('emakanan.php')
+#1 C:\Users\angel\Music\tokomakanan\system\Common.php(1089): CodeIgniter\View\View->render('emakanan', Array, true)
+#2 C:\Users\angel\Music\tokomakanan\app\Controllers\Home.php(179): view('emakanan', Array)
+#3 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->editmenu('7')
+#4 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#8 {main}
+CRITICAL - 2024-11-11 08:22:28 --> Invalid file: emakanan.php
+#0 C:\Users\angel\Music\tokomakanan\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('emakanan.php')
+#1 C:\Users\angel\Music\tokomakanan\system\Common.php(1089): CodeIgniter\View\View->render('emakanan', Array, true)
+#2 C:\Users\angel\Music\tokomakanan\app\Controllers\Home.php(179): view('emakanan', Array)
+#3 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->editmenu('assets', 'img', 'logo.png')
+#4 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#8 {main}
+CRITICAL - 2024-11-11 08:22:28 --> Invalid file: emakanan.php
+#0 C:\Users\angel\Music\tokomakanan\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('emakanan.php')
+#1 C:\Users\angel\Music\tokomakanan\system\Common.php(1089): CodeIgniter\View\View->render('emakanan', Array, true)
+#2 C:\Users\angel\Music\tokomakanan\app\Controllers\Home.php(179): view('emakanan', Array)
+#3 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->editmenu('assets', 'img', 'messages-1.jpg')
+#4 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#8 {main}
+CRITICAL - 2024-11-11 08:22:29 --> Invalid file: emakanan.php
+#0 C:\Users\angel\Music\tokomakanan\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('emakanan.php')
+#1 C:\Users\angel\Music\tokomakanan\system\Common.php(1089): CodeIgniter\View\View->render('emakanan', Array, true)
+#2 C:\Users\angel\Music\tokomakanan\app\Controllers\Home.php(179): view('emakanan', Array)
+#3 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->editmenu('assets', 'img', 'messages-2.jpg')
+#4 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#8 {main}
+CRITICAL - 2024-11-11 08:22:29 --> Invalid file: emakanan.php
+#0 C:\Users\angel\Music\tokomakanan\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('emakanan.php')
+#1 C:\Users\angel\Music\tokomakanan\system\Common.php(1089): CodeIgniter\View\View->render('emakanan', Array, true)
+#2 C:\Users\angel\Music\tokomakanan\app\Controllers\Home.php(179): view('emakanan', Array)
+#3 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->editmenu('assets', 'img', 'messages-3.jpg')
+#4 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#8 {main}
+ERROR - 2024-11-11 08:29:00 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2024-11-11 08:29:00 --> Column 'id_user' cannot be null
+ERROR - 2024-11-11 08:35:48 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2024-11-11 08:35:48 --> Column 'id_user' cannot be null
+ERROR - 2024-11-11 08:40:09 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2024-11-11 08:40:09 --> Column 'id_user' cannot be null
+ERROR - 2024-11-11 08:40:30 --> Unknown column 'no_handphone' in 'field list'
+ERROR - 2024-11-11 08:48:45 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2024-11-11 08:48:45 --> Column 'id_user' cannot be null
+CRITICAL - 2024-11-11 09:09:17 --> syntax error, unexpected '$Jocye' (T_VARIABLE)
+#0 C:\Users\angel\Music\tokomakanan\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/costumer')
+#1 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/costumer')
+#2 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#6 {main}
+ERROR - 2024-11-11 09:11:17 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2024-11-11 09:11:17 --> Column 'id_user' cannot be null
+ERROR - 2024-11-11 09:12:19 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2024-11-11 09:12:19 --> Unknown column 'username' in 'where clause'
+CRITICAL - 2024-11-11 09:12:19 --> Call to a member function getRow() on bool
+#0 C:\Users\angel\Music\tokomakanan\app\Controllers\Home.php(331): App\Models\M_belajar->getWhere('costumer', Array)
+#1 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->aksi_inpelanggan()
+#2 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#6 {main}
+ERROR - 2024-11-11 09:34:12 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2024-11-11 09:34:12 --> Column 'id_user' cannot be null
+ERROR - 2024-11-11 09:34:50 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2024-11-11 09:34:50 --> Column 'id_user' cannot be null
+ERROR - 2024-11-11 18:37:33 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2024-11-11 18:37:33 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\Users\angel\Music\tokomakanan\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\angel\Music\tokomakanan\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\angel\Music\tokomakanan\app\Models\M_belajar.php(42): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#3 C:\Users\angel\Music\tokomakanan\app\Controllers\Home.php(31): App\Models\M_belajar->getWhere('user', Array)
+#4 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#5 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#9 {main}
+ERROR - 2024-11-11 18:49:03 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2024-11-11 18:49:03 --> Column 'id_user' cannot be null
+ERROR - 2024-11-11 18:50:12 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2024-11-11 18:50:12 --> Column 'id_user' cannot be null
+ERROR - 2024-11-11 18:55:08 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2024-11-11 18:55:08 --> Column 'id_user' cannot be null
+CRITICAL - 2024-11-11 19:00:53 --> syntax error, unexpected '$Jocye' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\Users\angel\Music\tokomakanan\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/karyawan')
+#1 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/karyawan')
+#2 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#6 {main}
+ERROR - 2024-11-11 19:38:36 --> Duplicate entry '0' for key 'PRIMARY'
+CRITICAL - 2024-11-11 21:30:45 --> Argument 2 passed to view() must be of the type array, null given, called in C:\Users\angel\Music\tokomakanan\app\Controllers\Home.php on line 263
+#0 C:\Users\angel\Music\tokomakanan\app\Controllers\Home.php(263): view('inputkry', NULL)
+#1 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->tkry()
+#2 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#6 {main}
+CRITICAL - 2024-11-11 21:31:31 --> Argument 2 passed to view() must be of the type array, null given, called in C:\Users\angel\Music\tokomakanan\app\Controllers\Home.php on line 263
+#0 C:\Users\angel\Music\tokomakanan\app\Controllers\Home.php(263): view('inputkry', NULL)
+#1 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->tkry()
+#2 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#6 {main}
+ERROR - 2024-11-11 21:41:55 --> Duplicate entry '0' for key 'PRIMARY'

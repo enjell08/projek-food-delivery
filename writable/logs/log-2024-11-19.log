@@ -1,0 +1,607 @@
+CRITICAL - 2024-11-19 09:08:13 --> Invalid argument supplied for foreach()
+#0 C:\Users\angel\Music\tokomakanan\app\Views\order.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\angel\\...', 1, Array)
+#1 C:\Users\angel\Music\tokomakanan\system\View\View.php(210): include('C:\\Users\\angel\\...')
+#2 C:\Users\angel\Music\tokomakanan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\angel\Music\tokomakanan\system\Common.php(1089): CodeIgniter\View\View->render('order', Array, true)
+#4 C:\Users\angel\Music\tokomakanan\app\Controllers\Home.php(607): view('order', Array)
+#5 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->order()
+#6 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#10 {main}
+CRITICAL - 2024-11-19 09:14:09 --> Class 'App\Controllers\OrderModel' not found
+#0 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->tambahPesanan()
+#1 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#5 {main}
+CRITICAL - 2024-11-19 09:35:40 --> There is no data to insert.
+#0 C:\Users\angel\Music\tokomakanan\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\Users\angel\Music\tokomakanan\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#2 C:\Users\angel\Music\tokomakanan\app\Controllers\Home.php(627): CodeIgniter\Model->insert(Array)
+#3 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->tambahPesanan()
+#4 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#8 {main}
+CRITICAL - 2024-11-19 09:49:44 --> syntax error, unexpected 'public' (T_PUBLIC), expecting ';' or ','
+#0 C:\Users\angel\Music\tokomakanan\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\angel\\...')
+#1 C:\Users\angel\Music\tokomakanan\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\M_be...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\M_be...')
+#3 C:\Users\angel\Music\tokomakanan\app\Controllers\Home.php(57): spl_autoload_call('App\\Models\\M_be...')
+#4 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#5 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#9 {main}
+CRITICAL - 2024-11-19 09:50:06 --> There is no data to insert.
+#0 C:\Users\angel\Music\tokomakanan\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\Users\angel\Music\tokomakanan\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#2 C:\Users\angel\Music\tokomakanan\app\Controllers\Home.php(627): CodeIgniter\Model->insert(Array)
+#3 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->tambahPesanan()
+#4 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#8 {main}
+CRITICAL - 2024-11-19 09:50:41 --> syntax error, unexpected ''order'' (T_CONSTANT_ENCAPSED_STRING), expecting variable (T_VARIABLE)
+#0 C:\Users\angel\Music\tokomakanan\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\angel\\...')
+#1 C:\Users\angel\Music\tokomakanan\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\M_be...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\M_be...')
+#3 C:\Users\angel\Music\tokomakanan\app\Controllers\Home.php(614): spl_autoload_call('App\\Models\\M_be...')
+#4 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->tambahPesanan()
+#5 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#9 {main}
+CRITICAL - 2024-11-19 12:15:55 --> Class 'App\Models\OrderModel' not found
+#0 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#1 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#5 {main}
+CRITICAL - 2024-11-19 12:17:04 --> Invalid argument supplied for foreach()
+#0 C:\Users\angel\Music\tokomakanan\app\Controllers\Home.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\angel\\...', 69, Array)
+#1 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#2 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#6 {main}
+CRITICAL - 2024-11-19 12:17:19 --> Invalid argument supplied for foreach()
+#0 C:\Users\angel\Music\tokomakanan\app\Controllers\Home.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\angel\\...', 69, Array)
+#1 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#2 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#6 {main}
+CRITICAL - 2024-11-19 12:17:30 --> Invalid argument supplied for foreach()
+#0 C:\Users\angel\Music\tokomakanan\app\Controllers\Home.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\angel\\...', 69, Array)
+#1 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#2 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#6 {main}
+CRITICAL - 2024-11-19 12:17:31 --> Invalid argument supplied for foreach()
+#0 C:\Users\angel\Music\tokomakanan\app\Controllers\Home.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\angel\\...', 69, Array)
+#1 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#2 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#6 {main}
+CRITICAL - 2024-11-19 12:18:29 --> There is no data to insert.
+#0 C:\Users\angel\Music\tokomakanan\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\Users\angel\Music\tokomakanan\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#2 C:\Users\angel\Music\tokomakanan\app\Controllers\Home.php(628): CodeIgniter\Model->insert(Array)
+#3 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->tambahPesanan()
+#4 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#8 {main}
+ERROR - 2024-11-19 12:19:39 --> Unknown column 'id_order' in 'field list'
+ERROR - 2024-11-19 12:20:30 --> Unknown column 'id_order' in 'field list'
+CRITICAL - 2024-11-19 12:23:21 --> A non-numeric value encountered
+#0 C:\Users\angel\Music\tokomakanan\app\Controllers\Home.php(623): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\Users\\angel\\...', 623, Array)
+#1 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->tambahPesanan()
+#2 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#6 {main}
+CRITICAL - 2024-11-19 12:23:55 --> A non-numeric value encountered
+#0 C:\Users\angel\Music\tokomakanan\app\Controllers\Home.php(623): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\Users\\angel\\...', 623, Array)
+#1 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->tambahPesanan()
+#2 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#6 {main}
+CRITICAL - 2024-11-19 12:24:06 --> There is no data to insert.
+#0 C:\Users\angel\Music\tokomakanan\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\Users\angel\Music\tokomakanan\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#2 C:\Users\angel\Music\tokomakanan\app\Controllers\Home.php(628): CodeIgniter\Model->insert(Array)
+#3 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->tambahPesanan()
+#4 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#8 {main}
+CRITICAL - 2024-11-19 12:24:14 --> There is no data to insert.
+#0 C:\Users\angel\Music\tokomakanan\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\Users\angel\Music\tokomakanan\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#2 C:\Users\angel\Music\tokomakanan\app\Controllers\Home.php(628): CodeIgniter\Model->insert(Array)
+#3 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->tambahPesanan()
+#4 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#8 {main}
+CRITICAL - 2024-11-19 12:46:55 --> Invalid file: beranda.php
+#0 C:\Users\angel\Music\tokomakanan\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('beranda.php')
+#1 C:\Users\angel\Music\tokomakanan\system\Common.php(1089): CodeIgniter\View\View->render('beranda', Array, true)
+#2 C:\Users\angel\Music\tokomakanan\app\Controllers\Home.php(63): view('beranda', Array)
+#3 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#4 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#8 {main}
+CRITICAL - 2024-11-19 12:47:57 --> Invalid file: beranda.php
+#0 C:\Users\angel\Music\tokomakanan\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('beranda.php')
+#1 C:\Users\angel\Music\tokomakanan\system\Common.php(1089): CodeIgniter\View\View->render('beranda', Array, true)
+#2 C:\Users\angel\Music\tokomakanan\app\Controllers\Home.php(63): view('beranda', Array)
+#3 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#4 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#8 {main}
+CRITICAL - 2024-11-19 12:50:14 --> Invalid file: beranda.php
+#0 C:\Users\angel\Music\tokomakanan\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('beranda.php')
+#1 C:\Users\angel\Music\tokomakanan\system\Common.php(1089): CodeIgniter\View\View->render('beranda', Array, true)
+#2 C:\Users\angel\Music\tokomakanan\app\Controllers\Home.php(63): view('beranda', Array)
+#3 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#4 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#8 {main}
+CRITICAL - 2024-11-19 12:50:18 --> Invalid file: beranda.php
+#0 C:\Users\angel\Music\tokomakanan\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('beranda.php')
+#1 C:\Users\angel\Music\tokomakanan\system\Common.php(1089): CodeIgniter\View\View->render('beranda', Array, true)
+#2 C:\Users\angel\Music\tokomakanan\app\Controllers\Home.php(63): view('beranda', Array)
+#3 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#4 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#8 {main}
+CRITICAL - 2024-11-19 12:52:52 --> Invalid file: beranda.php
+#0 C:\Users\angel\Music\tokomakanan\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('beranda.php')
+#1 C:\Users\angel\Music\tokomakanan\system\Common.php(1089): CodeIgniter\View\View->render('beranda', Array, true)
+#2 C:\Users\angel\Music\tokomakanan\app\Controllers\Home.php(67): view('beranda', Array)
+#3 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#4 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#8 {main}
+CRITICAL - 2024-11-19 12:52:53 --> Invalid file: beranda.php
+#0 C:\Users\angel\Music\tokomakanan\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('beranda.php')
+#1 C:\Users\angel\Music\tokomakanan\system\Common.php(1089): CodeIgniter\View\View->render('beranda', Array, true)
+#2 C:\Users\angel\Music\tokomakanan\app\Controllers\Home.php(67): view('beranda', Array)
+#3 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#4 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#8 {main}
+CRITICAL - 2024-11-19 13:16:02 --> Invalid argument supplied for foreach()
+#0 C:\Users\angel\Music\tokomakanan\app\Views\dashboard.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\angel\\...', 17, Array)
+#1 C:\Users\angel\Music\tokomakanan\system\View\View.php(210): include('C:\\Users\\angel\\...')
+#2 C:\Users\angel\Music\tokomakanan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\angel\Music\tokomakanan\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#4 C:\Users\angel\Music\tokomakanan\app\Controllers\Home.php(63): view('dashboard', Array)
+#5 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#6 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#10 {main}
+CRITICAL - 2024-11-19 13:17:39 --> There is no data to insert.
+#0 C:\Users\angel\Music\tokomakanan\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\Users\angel\Music\tokomakanan\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#2 C:\Users\angel\Music\tokomakanan\app\Controllers\Home.php(628): CodeIgniter\Model->insert(Array)
+#3 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->tambahPesanan()
+#4 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#8 {main}
+CRITICAL - 2024-11-19 13:19:04 --> Cannot redeclare App\Controllers\Home::tambahPesanan()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-11-19 13:20:01 --> syntax error, unexpected '$nama_menu' (T_VARIABLE)
+#0 C:\Users\angel\Music\tokomakanan\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/dashboard')
+#1 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/dashboard')
+#2 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#6 {main}
+CRITICAL - 2024-11-19 13:20:16 --> syntax error, unexpected '$nama_menu' (T_VARIABLE)
+#0 C:\Users\angel\Music\tokomakanan\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/dashboard')
+#1 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/dashboard')
+#2 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#6 {main}
+CRITICAL - 2024-11-19 13:20:42 --> Invalid file: dashboards.php
+#0 C:\Users\angel\Music\tokomakanan\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboards.php')
+#1 C:\Users\angel\Music\tokomakanan\system\Common.php(1089): CodeIgniter\View\View->render('dashboards', Array, true)
+#2 C:\Users\angel\Music\tokomakanan\app\Controllers\Home.php(63): view('dashboards', Array)
+#3 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#4 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#8 {main}
+CRITICAL - 2024-11-19 13:20:58 --> Invalid file: dashboards.php
+#0 C:\Users\angel\Music\tokomakanan\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboards.php')
+#1 C:\Users\angel\Music\tokomakanan\system\Common.php(1089): CodeIgniter\View\View->render('dashboards', Array, true)
+#2 C:\Users\angel\Music\tokomakanan\app\Controllers\Home.php(63): view('dashboards', Array)
+#3 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#4 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#8 {main}
+CRITICAL - 2024-11-19 13:21:28 --> Invalid file: dashboards.php
+#0 C:\Users\angel\Music\tokomakanan\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboards.php')
+#1 C:\Users\angel\Music\tokomakanan\system\Common.php(1089): CodeIgniter\View\View->render('dashboards', Array, true)
+#2 C:\Users\angel\Music\tokomakanan\app\Controllers\Home.php(63): view('dashboards', Array)
+#3 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#4 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#8 {main}
+CRITICAL - 2024-11-19 13:26:51 --> Invalid file: dashboards.php
+#0 C:\Users\angel\Music\tokomakanan\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboards.php')
+#1 C:\Users\angel\Music\tokomakanan\system\Common.php(1089): CodeIgniter\View\View->render('dashboards', Array, true)
+#2 C:\Users\angel\Music\tokomakanan\app\Controllers\Home.php(63): view('dashboards', Array)
+#3 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#4 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#8 {main}
+CRITICAL - 2024-11-19 13:26:53 --> Invalid file: dashboards.php
+#0 C:\Users\angel\Music\tokomakanan\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboards.php')
+#1 C:\Users\angel\Music\tokomakanan\system\Common.php(1089): CodeIgniter\View\View->render('dashboards', Array, true)
+#2 C:\Users\angel\Music\tokomakanan\app\Controllers\Home.php(63): view('dashboards', Array)
+#3 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#4 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#8 {main}
+CRITICAL - 2024-11-19 13:28:00 --> Invalid file: dashboards.php
+#0 C:\Users\angel\Music\tokomakanan\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboards.php')
+#1 C:\Users\angel\Music\tokomakanan\system\Common.php(1089): CodeIgniter\View\View->render('dashboards', Array, true)
+#2 C:\Users\angel\Music\tokomakanan\app\Controllers\Home.php(63): view('dashboards', Array)
+#3 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#4 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#8 {main}
+CRITICAL - 2024-11-19 13:28:01 --> Invalid file: dashboards.php
+#0 C:\Users\angel\Music\tokomakanan\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboards.php')
+#1 C:\Users\angel\Music\tokomakanan\system\Common.php(1089): CodeIgniter\View\View->render('dashboards', Array, true)
+#2 C:\Users\angel\Music\tokomakanan\app\Controllers\Home.php(63): view('dashboards', Array)
+#3 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#4 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#8 {main}
+CRITICAL - 2024-11-19 13:29:25 --> Invalid file: dashboards.php
+#0 C:\Users\angel\Music\tokomakanan\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboards.php')
+#1 C:\Users\angel\Music\tokomakanan\system\Common.php(1089): CodeIgniter\View\View->render('dashboards', Array, true)
+#2 C:\Users\angel\Music\tokomakanan\app\Controllers\Home.php(63): view('dashboards', Array)
+#3 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#4 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#8 {main}
+CRITICAL - 2024-11-19 14:52:22 --> Invalid file: dashboards.php
+#0 C:\Users\angel\Music\tokomakanan\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboards.php')
+#1 C:\Users\angel\Music\tokomakanan\system\Common.php(1089): CodeIgniter\View\View->render('dashboards', Array, true)
+#2 C:\Users\angel\Music\tokomakanan\app\Controllers\Home.php(63): view('dashboards', Array)
+#3 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#4 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#8 {main}
+CRITICAL - 2024-11-19 14:52:23 --> Invalid file: dashboards.php
+#0 C:\Users\angel\Music\tokomakanan\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboards.php')
+#1 C:\Users\angel\Music\tokomakanan\system\Common.php(1089): CodeIgniter\View\View->render('dashboards', Array, true)
+#2 C:\Users\angel\Music\tokomakanan\app\Controllers\Home.php(63): view('dashboards', Array)
+#3 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#4 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#8 {main}
+CRITICAL - 2024-11-19 14:52:23 --> Invalid file: dashboards.php
+#0 C:\Users\angel\Music\tokomakanan\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboards.php')
+#1 C:\Users\angel\Music\tokomakanan\system\Common.php(1089): CodeIgniter\View\View->render('dashboards', Array, true)
+#2 C:\Users\angel\Music\tokomakanan\app\Controllers\Home.php(63): view('dashboards', Array)
+#3 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#4 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#8 {main}
+CRITICAL - 2024-11-19 14:53:01 --> Invalid file: dashboards.php
+#0 C:\Users\angel\Music\tokomakanan\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboards.php')
+#1 C:\Users\angel\Music\tokomakanan\system\Common.php(1089): CodeIgniter\View\View->render('dashboards', Array, true)
+#2 C:\Users\angel\Music\tokomakanan\app\Controllers\Home.php(63): view('dashboards', Array)
+#3 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#4 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#8 {main}
+CRITICAL - 2024-11-19 14:55:42 --> Invalid file: dashboards.php
+#0 C:\Users\angel\Music\tokomakanan\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboards.php')
+#1 C:\Users\angel\Music\tokomakanan\system\Common.php(1089): CodeIgniter\View\View->render('dashboards', Array, true)
+#2 C:\Users\angel\Music\tokomakanan\app\Controllers\Home.php(63): view('dashboards', Array)
+#3 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#4 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#8 {main}
+CRITICAL - 2024-11-19 14:55:43 --> Invalid file: dashboards.php
+#0 C:\Users\angel\Music\tokomakanan\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboards.php')
+#1 C:\Users\angel\Music\tokomakanan\system\Common.php(1089): CodeIgniter\View\View->render('dashboards', Array, true)
+#2 C:\Users\angel\Music\tokomakanan\app\Controllers\Home.php(63): view('dashboards', Array)
+#3 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#4 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#8 {main}
+CRITICAL - 2024-11-19 15:02:35 --> Invalid file: dashboards.php
+#0 C:\Users\angel\Music\tokomakanan\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboards.php')
+#1 C:\Users\angel\Music\tokomakanan\system\Common.php(1089): CodeIgniter\View\View->render('dashboards', Array, true)
+#2 C:\Users\angel\Music\tokomakanan\app\Controllers\Home.php(63): view('dashboards', Array)
+#3 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#4 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#8 {main}
+CRITICAL - 2024-11-19 15:07:32 --> Invalid file: dashboards.php
+#0 C:\Users\angel\Music\tokomakanan\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboards.php')
+#1 C:\Users\angel\Music\tokomakanan\system\Common.php(1089): CodeIgniter\View\View->render('dashboards', Array, true)
+#2 C:\Users\angel\Music\tokomakanan\app\Controllers\Home.php(63): view('dashboards', Array)
+#3 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#4 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#8 {main}
+CRITICAL - 2024-11-19 15:09:10 --> Cannot redeclare App\Controllers\Home::order()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-11-19 15:12:10 --> Invalid argument supplied for foreach()
+#0 C:\Users\angel\Music\tokomakanan\app\Views\dashboard.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\angel\\...', 17, Array)
+#1 C:\Users\angel\Music\tokomakanan\system\View\View.php(210): include('C:\\Users\\angel\\...')
+#2 C:\Users\angel\Music\tokomakanan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\angel\Music\tokomakanan\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#4 C:\Users\angel\Music\tokomakanan\app\Controllers\Home.php(63): view('dashboard', Array)
+#5 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#6 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#10 {main}
+CRITICAL - 2024-11-19 15:16:35 --> Call to a member function input() on null
+#0 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->tambahPesanan()
+#1 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#5 {main}
+CRITICAL - 2024-11-19 15:34:15 --> Call to a member function table() on null
+#0 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->cetak_nota()
+#1 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#5 {main}
+CRITICAL - 2024-11-19 15:40:09 --> Call to a member function table() on null
+#0 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->cetak_nota()
+#1 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#5 {main}
+CRITICAL - 2024-11-19 15:40:46 --> Call to a member function table() on null
+#0 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->cetak_nota()
+#1 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#5 {main}
+CRITICAL - 2024-11-19 15:45:14 --> Call to a member function table() on null
+#0 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->cetak_nota()
+#1 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#5 {main}
+CRITICAL - 2024-11-19 15:47:08 --> Call to a member function table() on null
+#0 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->cetak_nota()
+#1 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#5 {main}
+CRITICAL - 2024-11-19 15:47:15 --> Call to a member function table() on null
+#0 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->cetak_nota()
+#1 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#5 {main}
+CRITICAL - 2024-11-19 15:49:51 --> Call to a member function joinw() on null
+#0 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->cetak_nota()
+#1 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#5 {main}
+ERROR - 2024-11-19 15:50:55 --> Unknown column 'order.id_menu' in 'on clause'
+CRITICAL - 2024-11-19 15:50:55 --> Call to a member function getRow() on bool
+#0 C:\Users\angel\Music\tokomakanan\app\Controllers\Home.php(658): App\Models\M_belajar->joinw('order', 'makanan', 'order.id_menu =...', Array)
+#1 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->cetak_nota()
+#2 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#6 {main}
+ERROR - 2024-11-19 15:53:05 --> Unknown column 'order.id_menu' in 'on clause'
+CRITICAL - 2024-11-19 15:53:05 --> Call to a member function getRow() on bool
+#0 C:\Users\angel\Music\tokomakanan\app\Controllers\Home.php(658): App\Models\M_belajar->joinw('order', 'makanan', 'order.id_menu =...', Array)
+#1 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->cetak_nota()
+#2 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#6 {main}
+CRITICAL - 2024-11-19 15:55:37 --> syntax error, unexpected 'MD5' (T_STRING), expecting ')'
+#0 C:\Users\angel\Music\tokomakanan\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/dashboard')
+#1 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/dashboard')
+#2 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#6 {main}
+CRITICAL - 2024-11-19 15:55:47 --> syntax error, unexpected 'MD5' (T_STRING), expecting ')'
+#0 C:\Users\angel\Music\tokomakanan\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/login')
+#1 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/login')
+#2 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#6 {main}
+CRITICAL - 2024-11-19 15:55:48 --> syntax error, unexpected 'MD5' (T_STRING), expecting ')'
+#0 C:\Users\angel\Music\tokomakanan\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/login')
+#1 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/login')
+#2 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#6 {main}
+CRITICAL - 2024-11-19 15:55:52 --> syntax error, unexpected 'MD5' (T_STRING), expecting ')'
+#0 C:\Users\angel\Music\tokomakanan\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/login')
+#1 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/login')
+#2 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#6 {main}
+CRITICAL - 2024-11-19 15:56:26 --> syntax error, unexpected 'MD5' (T_STRING), expecting ')'
+#0 C:\Users\angel\Music\tokomakanan\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/login')
+#1 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/login')
+#2 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#6 {main}
+CRITICAL - 2024-11-19 15:56:53 --> syntax error, unexpected 'MD5' (T_STRING), expecting ')'
+#0 C:\Users\angel\Music\tokomakanan\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/login')
+#1 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/login')
+#2 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#6 {main}
+ERROR - 2024-11-19 18:30:35 --> Unknown column 'order.id_menu' in 'on clause'
+CRITICAL - 2024-11-19 18:30:35 --> Call to a member function getRow() on bool
+#0 C:\Users\angel\Music\tokomakanan\app\Controllers\Home.php(658): App\Models\M_belajar->joinw('order', 'makanan', 'order.id_menu =...', Array)
+#1 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->cetak_nota()
+#2 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#6 {main}
+ERROR - 2024-11-19 18:46:13 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2024-11-19 18:46:13 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\Users\angel\Music\tokomakanan\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\angel\Music\tokomakanan\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\angel\Music\tokomakanan\app\Models\M_belajar.php(16): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\angel\Music\tokomakanan\app\Controllers\Home.php(84): App\Models\M_belajar->tampil('order', 'id_order')
+#4 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->order()
+#5 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#9 {main}
+ERROR - 2024-11-19 18:48:02 --> Unknown column 'order.id_menu' in 'on clause'
+CRITICAL - 2024-11-19 18:48:02 --> Call to a member function getRow() on bool
+#0 C:\Users\angel\Music\tokomakanan\app\Controllers\Home.php(658): App\Models\M_belajar->joinw('order', 'makanan', 'order.id_menu =...', Array)
+#1 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->cetak_nota()
+#2 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#6 {main}
+CRITICAL - 2024-11-19 19:02:36 --> Call to a member function table() on null
+#0 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->cetak_nota()
+#1 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#5 {main}
+CRITICAL - 2024-11-19 19:05:13 --> Call to a member function table() on null
+#0 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->cetak_nota()
+#1 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#5 {main}
+CRITICAL - 2024-11-19 19:06:04 --> Call to a member function table() on null
+#0 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->cetak_nota()
+#1 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#5 {main}
+CRITICAL - 2024-11-19 19:06:14 --> Call to a member function table() on null
+#0 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->cetak_nota()
+#1 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#5 {main}

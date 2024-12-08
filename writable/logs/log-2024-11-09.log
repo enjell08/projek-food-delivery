@@ -1,0 +1,54 @@
+CRITICAL - 2024-11-09 11:00:02 --> You must set the database table to be used with your query.
+#0 C:\Users\angel\Music\tokomakanan\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\Users\angel\Music\tokomakanan\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\Users\angel\Music\tokomakanan\app\Controllers\Home.php(325): CodeIgniter\Model->__call('get_item_by_id', Array)
+#3 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->pesanan('1')
+#4 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#8 {main}
+ERROR - 2024-11-09 11:26:25 --> Table 'fast_food.orders' doesn't exist
+CRITICAL - 2024-11-09 11:26:25 --> Invalid file: order_confirmation.php
+#0 C:\Users\angel\Music\tokomakanan\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('order_confirmat...')
+#1 C:\Users\angel\Music\tokomakanan\system\Common.php(1089): CodeIgniter\View\View->render('order_confirmat...', Array, true)
+#2 C:\Users\angel\Music\tokomakanan\app\Controllers\Home.php(370): view('order_confirmat...', Array)
+#3 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->proses_pesanan()
+#4 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#8 {main}
+ERROR - 2024-11-09 11:29:13 --> Table 'fast_food.orders' doesn't exist
+ERROR - 2024-11-09 11:29:33 --> Table 'fast_food.orders' doesn't exist
+ERROR - 2024-11-09 11:32:15 --> Table 'fast_food.orders' doesn't exist
+ERROR - 2024-11-09 11:33:01 --> Table 'fast_food.orders' doesn't exist
+ERROR - 2024-11-09 11:33:05 --> Table 'fast_food.orders' doesn't exist
+ERROR - 2024-11-09 11:34:14 --> Table 'fast_food.orders' doesn't exist
+ERROR - 2024-11-09 11:37:02 --> Table 'fast_food.orders' doesn't exist
+ERROR - 2024-11-09 12:44:13 --> Table 'fast_food.orders' doesn't exist
+CRITICAL - 2024-11-09 12:49:12 --> syntax error, unexpected '}', expecting end of file
+#0 C:\Users\angel\Music\tokomakanan\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/pesanan_fo...')
+#1 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/pesanan_fo...')
+#2 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#6 {main}
+ERROR - 2024-11-09 12:49:56 --> Table 'fast_food.orders' doesn't exist
+ERROR - 2024-11-09 12:54:56 --> Table 'fast_food.orders' doesn't exist
+ERROR - 2024-11-09 12:55:13 --> Table 'fast_food.orders' doesn't exist
+ERROR - 2024-11-09 12:57:40 --> Table 'fast_food.orders' doesn't exist
+CRITICAL - 2024-11-09 12:57:40 --> Invalid file: order_confirmation.php
+#0 C:\Users\angel\Music\tokomakanan\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('order_confirmat...')
+#1 C:\Users\angel\Music\tokomakanan\system\Common.php(1089): CodeIgniter\View\View->render('order_confirmat...', Array, true)
+#2 C:\Users\angel\Music\tokomakanan\app\Controllers\Home.php(381): view('order_confirmat...', Array)
+#3 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->proses_pesanan()
+#4 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#8 {main}
+ERROR - 2024-11-09 12:58:01 --> Table 'fast_food.orders' doesn't exist
+ERROR - 2024-11-09 12:59:24 --> Table 'fast_food.orders' doesn't exist
+ERROR - 2024-11-09 13:00:31 --> Table 'fast_food.orders' doesn't exist

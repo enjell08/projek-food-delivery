@@ -1,0 +1,88 @@
+ERROR - 2024-11-13 08:01:55 --> Unknown column 'nik' in 'field list'
+ERROR - 2024-11-13 08:07:12 --> Unknown column 'nik' in 'field list'
+ERROR - 2024-11-13 08:14:13 --> Unknown column 'nik' in 'field list'
+CRITICAL - 2024-11-13 08:27:20 --> Too few arguments to function App\Models\M_belajar::tampil(), 1 passed in C:\Users\angel\Music\tokomakanan\app\Controllers\Home.php on line 456 and exactly 2 expected
+#0 C:\Users\angel\Music\tokomakanan\app\Controllers\Home.php(456): App\Models\M_belajar->tampil('customer')
+#1 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->cus()
+#2 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#6 {main}
+ERROR - 2024-11-13 08:32:15 --> Unknown column 'user.id_custumer' in 'on clause'
+CRITICAL - 2024-11-13 08:32:15 --> Call to a member function getResult() on bool
+#0 C:\Users\angel\Music\tokomakanan\app\Controllers\Home.php(457): App\Models\M_belajar->join('customer', 'user', 'customer.id_use...')
+#1 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->cus()
+#2 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#6 {main}
+ERROR - 2024-11-13 08:32:31 --> Unknown column 'user.id_custumer' in 'on clause'
+CRITICAL - 2024-11-13 08:32:31 --> Call to a member function getResult() on bool
+#0 C:\Users\angel\Music\tokomakanan\app\Controllers\Home.php(456): App\Models\M_belajar->join('customer', 'user', 'customer.id_use...')
+#1 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->cus()
+#2 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#6 {main}
+ERROR - 2024-11-13 08:32:33 --> Unknown column 'user.id_custumer' in 'on clause'
+CRITICAL - 2024-11-13 08:32:33 --> Call to a member function getResult() on bool
+#0 C:\Users\angel\Music\tokomakanan\app\Controllers\Home.php(456): App\Models\M_belajar->join('customer', 'user', 'customer.id_use...')
+#1 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->cus()
+#2 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#6 {main}
+ERROR - 2024-11-13 08:32:34 --> Unknown column 'user.id_custumer' in 'on clause'
+CRITICAL - 2024-11-13 08:32:34 --> Call to a member function getResult() on bool
+#0 C:\Users\angel\Music\tokomakanan\app\Controllers\Home.php(456): App\Models\M_belajar->join('customer', 'user', 'customer.id_use...')
+#1 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->cus()
+#2 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#6 {main}
+ERROR - 2024-11-13 09:20:38 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2024-11-13 09:20:38 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\Users\angel\Music\tokomakanan\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\angel\Music\tokomakanan\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\angel\Music\tokomakanan\app\Models\M_belajar.php(11): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\angel\Music\tokomakanan\app\Controllers\Home.php(469): App\Models\M_belajar->tampil('user', 'id_user')
+#4 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->tcus()
+#5 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#9 {main}
+ERROR - 2024-11-13 09:29:39 --> Duplicate entry '2' for key 'id_user'
+CRITICAL - 2024-11-13 09:36:31 --> Too few arguments to function App\Models\M_belajar::tampil(), 1 passed in C:\Users\angel\Music\tokomakanan\app\Controllers\Home.php on line 113 and exactly 2 expected
+#0 C:\Users\angel\Music\tokomakanan\app\Controllers\Home.php(113): App\Models\M_belajar->tampil('makanan')
+#1 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->menu()
+#2 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#6 {main}
+CRITICAL - 2024-11-13 09:37:23 --> Too few arguments to function App\Models\M_belajar::tampil(), 1 passed in C:\Users\angel\Music\tokomakanan\app\Controllers\Home.php on line 124 and exactly 2 expected
+#0 C:\Users\angel\Music\tokomakanan\app\Controllers\Home.php(124): App\Models\M_belajar->tampil('makanan')
+#1 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->inputmenu()
+#2 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#6 {main}
+CRITICAL - 2024-11-13 18:05:44 --> Too few arguments to function App\Models\M_belajar::tampil(), 1 passed in C:\Users\angel\Music\tokomakanan\app\Controllers\Home.php on line 69 and exactly 2 expected
+#0 C:\Users\angel\Music\tokomakanan\app\Controllers\Home.php(69): App\Models\M_belajar->tampil('kurir')
+#1 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->kurir()
+#2 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#6 {main}
+ERROR - 2024-11-13 18:44:04 --> Unknown column 'nik' in 'field list'

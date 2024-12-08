@@ -1,0 +1,200 @@
+CRITICAL - 2024-11-20 04:57:37 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 C:\Users\angel\Music\tokomakanan\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\angel\\...')
+#1 C:\Users\angel\Music\tokomakanan\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#9 {main}
+CRITICAL - 2024-11-20 04:58:20 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 C:\Users\angel\Music\tokomakanan\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\angel\\...')
+#1 C:\Users\angel\Music\tokomakanan\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#9 {main}
+CRITICAL - 2024-11-20 04:58:23 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 C:\Users\angel\Music\tokomakanan\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\angel\\...')
+#1 C:\Users\angel\Music\tokomakanan\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#9 {main}
+CRITICAL - 2024-11-20 04:58:25 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 C:\Users\angel\Music\tokomakanan\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\angel\\...')
+#1 C:\Users\angel\Music\tokomakanan\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#9 {main}
+CRITICAL - 2024-11-20 04:58:51 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 C:\Users\angel\Music\tokomakanan\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\angel\\...')
+#1 C:\Users\angel\Music\tokomakanan\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#9 {main}
+CRITICAL - 2024-11-20 04:59:00 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 C:\Users\angel\Music\tokomakanan\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\angel\\...')
+#1 C:\Users\angel\Music\tokomakanan\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#9 {main}
+CRITICAL - 2024-11-20 05:39:57 --> Call to a member function table() on null
+#0 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->cetak_nota()
+#1 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#5 {main}
+CRITICAL - 2024-11-20 05:53:48 --> syntax error, unexpected '<'
+#0 C:\Users\angel\Music\tokomakanan\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/order')
+#1 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/order')
+#2 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#6 {main}
+CRITICAL - 2024-11-20 05:54:19 --> Call to a member function table() on null
+#0 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->update_status()
+#1 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#5 {main}
+CRITICAL - 2024-11-20 05:55:32 --> Call to a member function table() on null
+#0 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->update_status()
+#1 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#5 {main}
+CRITICAL - 2024-11-20 05:55:39 --> Call to a member function table() on null
+#0 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->update_status()
+#1 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#5 {main}
+CRITICAL - 2024-11-20 06:10:53 --> syntax error, unexpected 'require_once' (T_REQUIRE_ONCE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\Users\angel\Music\tokomakanan\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/order')
+#1 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/order')
+#2 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#6 {main}
+CRITICAL - 2024-11-20 06:11:51 --> Call to a member function post() on null
+#0 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->print_nota()
+#1 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#5 {main}
+CRITICAL - 2024-11-20 06:18:03 --> Call to a member function getOrderById() on null
+#0 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->print_nota()
+#1 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#5 {main}
+CRITICAL - 2024-11-20 06:19:49 --> Call to a member function getOrderById() on null
+#0 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->print_nota()
+#1 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#5 {main}
+CRITICAL - 2024-11-20 06:20:21 --> Call to a member function getMenuItems() on null
+#0 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->print_nota()
+#1 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#5 {main}
+CRITICAL - 2024-11-20 06:21:12 --> Call to a member function getOrderById() on null
+#0 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->print_nota()
+#1 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#5 {main}
+ERROR - 2024-11-20 06:28:55 --> Unknown column 'id_order' in 'where clause'
+CRITICAL - 2024-11-20 06:28:55 --> Call to a member function getFirstRow() on bool
+#0 C:\Users\angel\Music\tokomakanan\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\Users\angel\Music\tokomakanan\app\Models\M_belajar.php(73): CodeIgniter\BaseModel->first()
+#2 C:\Users\angel\Music\tokomakanan\app\Controllers\Home.php(652): App\Models\M_belajar->getOrderById('')
+#3 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->print_nota()
+#4 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#8 {main}
+ERROR - 2024-11-20 06:30:29 --> Unknown column 'id_order' in 'where clause'
+CRITICAL - 2024-11-20 06:30:29 --> Call to a member function getFirstRow() on bool
+#0 C:\Users\angel\Music\tokomakanan\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\Users\angel\Music\tokomakanan\app\Models\M_belajar.php(73): CodeIgniter\BaseModel->first()
+#2 C:\Users\angel\Music\tokomakanan\app\Controllers\Home.php(652): App\Models\M_belajar->getOrderById('')
+#3 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->print_nota()
+#4 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#8 {main}
+ERROR - 2024-11-20 07:46:09 --> Unknown column 'kode' in 'field list'
+ERROR - 2024-11-20 07:50:35 --> Unknown column 'kode' in 'field list'
+ERROR - 2024-11-20 07:53:12 --> Unknown column 'kode' in 'field list'
+ERROR - 2024-11-20 07:57:14 --> Unknown column 'kode' in 'field list'
+ERROR - 2024-11-20 07:58:54 --> Unknown column 'kode' in 'field list'
+ERROR - 2024-11-20 08:02:40 --> Unknown column 'kode' in 'field list'
+ERROR - 2024-11-20 08:05:41 --> Unknown column 'kode' in 'field list'
+ERROR - 2024-11-20 08:06:01 --> Unknown column 'kode' in 'field list'
+ERROR - 2024-11-20 08:10:51 --> Unknown column 'kode' in 'field list'
+ERROR - 2024-11-20 08:11:19 --> Unknown column 'kode' in 'field list'
+ERROR - 2024-11-20 08:12:51 --> Unknown column 'kode' in 'where clause'
+CRITICAL - 2024-11-20 08:14:50 --> Illegal offset type
+#0 C:\Users\angel\Music\tokomakanan\system\Database\BaseBuilder.php(665): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal offset ...', 'C:\\Users\\angel\\...', 665, Array)
+#1 C:\Users\angel\Music\tokomakanan\system\Database\BaseBuilder.php(631): CodeIgniter\Database\BaseBuilder->whereHaving('QBWhere', Object(App\Models\M_belajar), NULL, 'AND ', NULL)
+#2 C:\Users\angel\Music\tokomakanan\system\Database\BaseBuilder.php(1897): CodeIgniter\Database\BaseBuilder->where(Object(App\Models\M_belajar))
+#3 C:\Users\angel\Music\tokomakanan\app\Models\M_belajar.php(64): CodeIgniter\Database\BaseBuilder->update(Array, Object(App\Models\M_belajar))
+#4 C:\Users\angel\Music\tokomakanan\app\Controllers\Home.php(229): App\Models\M_belajar->edit('makanan', Array, Object(App\Models\M_belajar))
+#5 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(832): App\Controllers\Home->simpan_edit_menu()
+#6 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#10 {main}
+ERROR - 2024-11-20 08:19:03 --> Unknown column 'kode' in 'field list'
+ERROR - 2024-11-20 08:19:25 --> Unknown column 'kode' in 'field list'
+CRITICAL - 2024-11-20 08:47:31 --> syntax error, unexpected 'md5' (T_STRING), expecting ')'
+#0 C:\Users\angel\Music\tokomakanan\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/kry')
+#1 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/kry')
+#2 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\angel\Music\tokomakanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\angel\Music\tokomakanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\angel\Music\tokomakanan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\angel\\...')
+#6 {main}
